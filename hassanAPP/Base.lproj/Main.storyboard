@@ -1,26 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="hassanAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12185388_611173469023286_3328785568127900192_o" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-ip-IXl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="jIE-Da-zxQ"/>
+                                    <constraint firstAttribute="width" constant="350" id="pbR-3w-It2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HASSANblack" translatesAutoresizingMaskIntoConstraints="NO" id="PWK-OJ-Fvl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="y62-Go-PCS"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i9V-2E-RA6">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="J7x-BZ-9y0">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJg-Tn-Puo" userLabel="about">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="113" id="KzT-eY-iUr"/>
+                                                    <constraint firstAttribute="height" constant="36" id="T51-82-reG"/>
+                                                </constraints>
+                                                <state key="normal" image="about"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-3y-LIj" userLabel="youtube">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="RdO-XT-cdq"/>
+                                                    <constraint firstAttribute="width" constant="113" id="saJ-VW-C6y"/>
+                                                </constraints>
+                                                <state key="normal" image="youtube"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkM-D1-IEM" userLabel="signup">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="113" id="18o-YX-c3M"/>
+                                                    <constraint firstAttribute="height" constant="36" id="fKX-Zl-h89"/>
+                                                </constraints>
+                                                <state key="normal" image="signup"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mWp-fj-zoJ">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUx-3J-ZE4" userLabel="facebook">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="dpP-G9-f1T"/>
+                                                    <constraint firstAttribute="width" constant="113" id="xYu-Uu-Wc1"/>
+                                                </constraints>
+                                                <state key="normal" image="facbeook"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCO-0B-yed" userLabel="instagram">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="113" id="jfL-kD-jwJ"/>
+                                                    <constraint firstAttribute="height" constant="36" id="uWa-n8-ad9"/>
+                                                </constraints>
+                                                <state key="normal" image="IG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMR-bv-uds" userLabel="twitter">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="113" id="0gq-kh-7Sg"/>
+                                                    <constraint firstAttribute="height" constant="36" id="36I-l8-jGN"/>
+                                                </constraints>
+                                                <state key="normal" image="twitter"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mWp-fj-zoJ" firstAttribute="leading" secondItem="i9V-2E-RA6" secondAttribute="leading" id="16l-V6-THj"/>
+                                    <constraint firstAttribute="trailing" secondItem="mWp-fj-zoJ" secondAttribute="trailing" id="9lp-G7-Umr"/>
+                                    <constraint firstAttribute="trailing" secondItem="J7x-BZ-9y0" secondAttribute="trailing" id="jdy-sw-CdS"/>
+                                    <constraint firstAttribute="bottom" secondItem="mWp-fj-zoJ" secondAttribute="bottom" id="kH4-z9-51P"/>
+                                    <constraint firstItem="J7x-BZ-9y0" firstAttribute="leading" secondItem="i9V-2E-RA6" secondAttribute="leading" id="qtr-5Z-cCh"/>
+                                    <constraint firstAttribute="height" constant="82" id="teo-kC-cg0"/>
+                                    <constraint firstItem="J7x-BZ-9y0" firstAttribute="top" secondItem="i9V-2E-RA6" secondAttribute="top" id="yIH-01-iNm"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0Z-dY-jwH">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="iuh-vq-36s"/>
+                                </constraints>
+                                <state key="normal" image="WEBSITE"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.015686274509803921" green="0.015686274509803921" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="J0Z-dY-jwH" secondAttribute="bottom" constant="8" id="2aB-GB-Sad"/>
+                            <constraint firstItem="vAt-ip-IXl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Xz-bT-nwq"/>
+                            <constraint firstItem="PWK-OJ-Fvl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BEg-1v-grX"/>
+                            <constraint firstItem="i9V-2E-RA6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="BWE-iD-v7K"/>
+                            <constraint firstAttribute="trailing" secondItem="i9V-2E-RA6" secondAttribute="trailing" constant="10" id="HDm-Qx-FcR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PWK-OJ-Fvl" secondAttribute="trailing" constant="8" id="Ibh-Al-JMa"/>
+                            <constraint firstItem="PWK-OJ-Fvl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="PVF-PX-Y0F"/>
+                            <constraint firstItem="vAt-ip-IXl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b38-X4-owH"/>
+                            <constraint firstItem="J0Z-dY-jwH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="14" id="gbm-Ou-9LU"/>
+                            <constraint firstItem="J0Z-dY-jwH" firstAttribute="top" secondItem="i9V-2E-RA6" secondAttribute="bottom" constant="20" id="kxL-j6-pL2"/>
+                            <constraint firstAttribute="trailing" secondItem="J0Z-dY-jwH" secondAttribute="trailing" constant="14" id="pXl-wY-wa9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="13.043478260869566"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="12185388_611173469023286_3328785568127900192_o" width="2048" height="2047"/>
+        <image name="HASSANblack" width="499" height="134"/>
+        <image name="IG" width="330" height="115"/>
+        <image name="WEBSITE" width="4500" height="540"/>
+        <image name="about" width="330" height="115"/>
+        <image name="facbeook" width="330" height="115"/>
+        <image name="signup" width="330" height="115"/>
+        <image name="twitter" width="330" height="115"/>
+        <image name="youtube" width="330" height="115"/>
+    </resources>
 </document>
