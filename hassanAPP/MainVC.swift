@@ -9,6 +9,9 @@
 import UIKit
 
 class MainVC: UIViewController {
+    
+    //Adding subscription button for "youtube": 
+   // www.youtube.com/realhassanmusic?sub_confirmation=1
 
     override func viewDidLoad() {
         super.viewDidLoad()
