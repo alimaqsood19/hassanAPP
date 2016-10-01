@@ -22,6 +22,7 @@
 		6630128C1D9D079C003ABD58 /* FacebookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630128B1D9D079C003ABD58 /* FacebookVC.swift */; };
 		6630128E1D9D07B2003ABD58 /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630128D1D9D07B2003ABD58 /* InstagramVC.swift */; };
 		663012901D9D07BF003ABD58 /* TwitterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630128F1D9D07BF003ABD58 /* TwitterVC.swift */; };
+		663012921D9F9927003ABD58 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012911D9F9927003ABD58 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		6630128B1D9D079C003ABD58 /* FacebookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookVC.swift; sourceTree = "<group>"; };
 		6630128D1D9D07B2003ABD58 /* InstagramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
 		6630128F1D9D07BF003ABD58 /* TwitterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterVC.swift; sourceTree = "<group>"; };
+		663012911D9F9927003ABD58 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				6630128B1D9D079C003ABD58 /* FacebookVC.swift */,
 				6630128D1D9D07B2003ABD58 /* InstagramVC.swift */,
 				6630128F1D9D07BF003ABD58 /* TwitterVC.swift */,
+				663012911D9F9927003ABD58 /* SignUpVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				663012901D9D07BF003ABD58 /* TwitterVC.swift in Sources */,
 				663012821D9B79B9003ABD58 /* VideoVC.swift in Sources */,
 				663012841D9B7A99003ABD58 /* VideoCell.swift in Sources */,
+				663012921D9F9927003ABD58 /* SignUpVC.swift in Sources */,
 				663012531D94FE5F003ABD58 /* MainVC.swift in Sources */,
 				663012861D9B7E9E003ABD58 /* aboutVC.swift in Sources */,
 				663012511D94FE5F003ABD58 /* AppDelegate.swift in Sources */,
