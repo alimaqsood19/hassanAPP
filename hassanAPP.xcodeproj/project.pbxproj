@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6610AA6E1DAF10F000D70F4C /* WebsiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6610AA6D1DAF10F000D70F4C /* WebsiteVC.swift */; };
 		663012511D94FE5F003ABD58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012501D94FE5F003ABD58 /* AppDelegate.swift */; };
 		663012531D94FE5F003ABD58 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012521D94FE5F003ABD58 /* MainVC.swift */; };
 		663012561D94FE5F003ABD58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663012541D94FE5F003ABD58 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6610AA6D1DAF10F000D70F4C /* WebsiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteVC.swift; sourceTree = "<group>"; };
 		6630124D1D94FE5F003ABD58 /* hassanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hassanAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663012501D94FE5F003ABD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663012521D94FE5F003ABD58 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				6630128D1D9D07B2003ABD58 /* InstagramVC.swift */,
 				6630128F1D9D07BF003ABD58 /* TwitterVC.swift */,
 				663012911D9F9927003ABD58 /* SignUpVC.swift */,
+				6610AA6D1DAF10F000D70F4C /* WebsiteVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				663012901D9D07BF003ABD58 /* TwitterVC.swift in Sources */,
 				663012821D9B79B9003ABD58 /* VideoVC.swift in Sources */,
+				6610AA6E1DAF10F000D70F4C /* WebsiteVC.swift in Sources */,
 				663012841D9B7A99003ABD58 /* VideoCell.swift in Sources */,
 				663012921D9F9927003ABD58 /* SignUpVC.swift in Sources */,
 				663012531D94FE5F003ABD58 /* MainVC.swift in Sources */,

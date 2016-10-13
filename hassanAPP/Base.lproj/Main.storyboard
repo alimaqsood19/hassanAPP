@@ -462,9 +462,9 @@
                                     <constraint firstItem="dbb-Pv-Lm0" firstAttribute="centerY" secondItem="ze4-eF-7oi" secondAttribute="centerY" id="uar-qb-sJu"/>
                                 </constraints>
                             </view>
-                            <webView contentMode="center" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-wE-ZCu">
+                            <webView clipsSubviews="YES" contentMode="center" scalesPageToFit="YES" paginationMode="topToBottom" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-wE-ZCu">
                                 <color key="backgroundColor" red="0.20317527652086473" green="0.22166429348386077" blue="0.23285256410256405" alpha="1" colorSpace="calibratedRGB"/>
-                                <rect key="contentStretch" x="0.75" y="0.75" width="1" height="1"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="186" id="Jht-XY-rwm"/>
                                 </constraints>

@@ -25,10 +25,6 @@ class SignUpVC: UIViewController {
         
         webView.loadRequest(requestOBJ as URLRequest)
         
-        
-        
-
-
     }
 
 
