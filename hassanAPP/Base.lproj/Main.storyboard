@@ -427,8 +427,9 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ze4-eF-7oi">
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="equalCentering" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="dbb-Pv-Lm0">
-                                        <frame key="frameInset" minX="8" minY="8" width="313" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="dbb-Pv-Lm0">
+                                        <frame key="frameInset" minX="5" minY="7" width="313" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lT1-tI-2sX">
                                                 <frame key="frameInset" width="37" height="30"/>
@@ -444,7 +445,7 @@
                                                     <action selector="backBtnPressed:" destination="9hn-Te-Nbn" eventType="touchUpInside" id="ZB1-nk-NvY"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="VideosTitleNameSpaceSpace" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-pg-iMo">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="VideosTitleNameSpaceSpace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-pg-iMo">
                                                 <frame key="frameInset" minX="87" width="226" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="bA7-BW-Go2"/>
@@ -459,11 +460,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="O3T-on-UHg"/>
-                                    <constraint firstItem="dbb-Pv-Lm0" firstAttribute="centerY" secondItem="ze4-eF-7oi" secondAttribute="centerY" id="uar-qb-sJu"/>
                                 </constraints>
                             </view>
-                            <webView clipsSubviews="YES" contentMode="center" scalesPageToFit="YES" paginationMode="topToBottom" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-wE-ZCu">
-                                <color key="backgroundColor" red="0.20317527652086473" green="0.22166429348386077" blue="0.23285256410256405" alpha="1" colorSpace="calibratedRGB"/>
+                            <webView autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="center" scalesPageToFit="YES" paginationMode="topToBottom" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-wE-ZCu">
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="186" id="Jht-XY-rwm"/>

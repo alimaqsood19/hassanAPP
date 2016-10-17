@@ -29,13 +29,15 @@ class webViewVideos: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
+        
         webView.scrollView.isScrollEnabled = false
         webView.scalesPageToFit = true
         webView.contentMode = UIViewContentMode.scaleAspectFit
-    
         
         videoTitleLbl.text = ytvideo.videoTitle
         webView.loadHTMLString(ytvideo.videoURL, baseURL: nil)
+        
         
         
 
