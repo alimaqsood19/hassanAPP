@@ -1,0 +1,6 @@
+framework module Pods_hassanAPP {
+  umbrella header "Pods-hassanAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

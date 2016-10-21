@@ -37,15 +37,6 @@ class webViewVideos: UIViewController {
         
         videoTitleLbl.text = ytvideo.videoTitle
         webView.loadHTMLString(ytvideo.videoURL, baseURL: nil)
-        
-        
-        
-
-        
-        
-        
-
-        
 
             }
 

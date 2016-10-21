@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseInstanceID
+import FirebaseMessaging
 
 class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var youtubeVideos = [YoutubeVideo]()
     
-    
+
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func backBtnPressed(_ sender: AnyObject) {
@@ -27,7 +30,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+        FIRMessaging.messaging().subscribe(toTopic: "New promotions")
+        
         
         let p1 = YoutubeVideo(imageURL: "https://i.ytimg.com/vi/zdy4Z4UJNzo/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=uGY_i_wQW5dtpv6jeD4jWrMf2uc", videoURL: "<iframe width=\"960\" height=\"470\" src=\"https://www.youtube.com/embed/zdy4Z4UJNzo\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Love Me (Aahista)")
         youtubeVideos.append(p1)
@@ -41,7 +45,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let p4 = YoutubeVideo(imageURL: "https://i.ytimg.com/vi/CMOLbZvoE8U/hqdefault.jpg?custom=true&w=120&h=90&jpg444=true&jpgq=90&sp=68&sigh=0G6H1g8-cIWrmxIj8_iH13LMy5c", videoURL: "<iframe width=\"960\" height=\"470\" src=\"https://www.youtube.com/embed/CMOLbZvoE8U?list=PLh3qDdLif-sUQzn3m7xAlggvhy4AiuP7w\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Inside of Her Heart")
         youtubeVideos.append(p4)
         
-        let p5 = YoutubeVideo(imageURL: "https://i.ytimg.com/vi/ulnzwtH2VTY/hqdefault.jpg?custom=true&w=120&h=90&jpg444=true&jpgq=90&sp=68&sigh=Gr2j6IX-0WeJzv8IAHq5kT8OqOI", videoURL: "<iframe width=\"960\" height=\"470\" src=\"https://www.youtube.com/embed/ulnzwtH2VTY?list=PLh3qDdLif-sUQzn3m7xAlggvhy4AiuP7w\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Cold Water (Remix)")
+        let p5 = YoutubeVideo(imageURL: "https://i.ytimg.com/vi/ulnzwtH2VTY/hqdefault.jpg?custom=true&w=120&h=90&jpg444=true&jpgq=90&sp=68&sigh=Gr2j6IX-0WeJzv8IAHq5kT8OqOI", videoURL: "<iframe width=\"960\" height=\"470\" src=\"https://www.youtube.com/embed/ulnzwtH2VTY\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Cold Water (Remix)")
         youtubeVideos.append(p5)
 
         tableView.delegate = self
@@ -62,7 +66,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
         
-        return UITableViewCell()
+     //   return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wJa-JR-Ydi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZvQ-sw-W4o">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skx-pn-xqS">
@@ -84,7 +84,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12185388_611173469023286_3328785568127900192_o" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-ip-IXl">
@@ -109,7 +109,7 @@
                                                 </constraints>
                                                 <state key="normal" image="about"/>
                                                 <connections>
-                                                    <segue destination="5BS-Rc-FDa" kind="showDetail" id="HpY-xu-0aJ"/>
+                                                    <segue destination="5BS-Rc-FDa" kind="presentation" id="Rlu-V1-ZiK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-3y-LIj" userLabel="youtube">
@@ -215,7 +215,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9DE-2c-Ok2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bOI-up-acD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-dm-gaQ">
@@ -283,7 +283,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Adh-x0-JD1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bde-a2-kx6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Vx-AK-BB4">
@@ -351,7 +351,7 @@
                         <viewControllerLayoutGuide type="bottom" id="oAt-Wz-LbL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qa7-wj-8S0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGh-vw-jZE">
@@ -418,7 +418,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Xc4-U3-Eg5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DVC-OB-HnQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="_IGP7976-Edit" translatesAutoresizingMaskIntoConstraints="NO" id="kC9-kj-X0s">
@@ -498,12 +498,13 @@
                         <viewControllerLayoutGuide type="bottom" id="Zwd-MY-B2a"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4G3-6x-eZQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ztr-Rg-r2l">
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R46-XS-ZEl">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R46-XS-ZEl">
+                                        <frame key="frameInset" minY="2" width="45" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="E7y-tj-e5Y"/>
                                         </constraints>
@@ -543,10 +544,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="92" id="m3W-Yi-qLe" customClass="VideoCell" customModule="hassanAPP" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="92"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="92"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m3W-Yi-qLe" id="MsM-ID-ddl">
-                                            <frame key="frameInset" width="320" height="91"/>
+                                            <frame key="frameInset" width="375" height="92"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hoj-yG-sI6">
@@ -615,7 +616,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6gG-Pn-KA6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gxs-e2-TU3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_IGP7791" translatesAutoresizingMaskIntoConstraints="NO" id="ezr-tA-m3m"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6610AA6E1DAF10F000D70F4C /* WebsiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6610AA6D1DAF10F000D70F4C /* WebsiteVC.swift */; };
+		6613366E1DB9DA4300C8A1A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6613366D1DB9DA4300C8A1A4 /* GoogleService-Info.plist */; };
 		663012511D94FE5F003ABD58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012501D94FE5F003ABD58 /* AppDelegate.swift */; };
 		663012531D94FE5F003ABD58 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012521D94FE5F003ABD58 /* MainVC.swift */; };
 		663012561D94FE5F003ABD58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663012541D94FE5F003ABD58 /* Main.storyboard */; };
@@ -24,6 +25,9 @@
 		6630128E1D9D07B2003ABD58 /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630128D1D9D07B2003ABD58 /* InstagramVC.swift */; };
 		663012901D9D07BF003ABD58 /* TwitterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630128F1D9D07BF003ABD58 /* TwitterVC.swift */; };
 		663012921D9F9927003ABD58 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663012911D9F9927003ABD58 /* SignUpVC.swift */; };
+		8474EF5835A3E34BEA30F64A /* Pods_hassanAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A738F981CB20F4CCDC7DCA8 /* Pods_hassanAPPTests.framework */; };
+		D57F784AA14E69E3FD03B81E /* Pods_hassanAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3315FE57EDD7C39539443F55 /* Pods_hassanAPPUITests.framework */; };
+		E9AFB4CBED4A10AFE3DD95A3 /* Pods_hassanAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6171972A93BFB4561735D33 /* Pods_hassanAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CEECAB564C29686FBA4E781 /* Pods-hassanAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPPUITests/Pods-hassanAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FF68BE831A87A3979C8D987 /* Pods-hassanAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPP/Pods-hassanAPP.release.xcconfig"; sourceTree = "<group>"; };
+		3315FE57EDD7C39539443F55 /* Pods_hassanAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hassanAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6610AA6D1DAF10F000D70F4C /* WebsiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteVC.swift; sourceTree = "<group>"; };
+		6613366D1DB9DA4300C8A1A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6613366F1DB9DD5700C8A1A4 /* hassanAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hassanAPP.entitlements; sourceTree = "<group>"; };
 		6630124D1D94FE5F003ABD58 /* hassanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hassanAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663012501D94FE5F003ABD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663012521D94FE5F003ABD58 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -67,6 +76,12 @@
 		6630128D1D9D07B2003ABD58 /* InstagramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
 		6630128F1D9D07BF003ABD58 /* TwitterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterVC.swift; sourceTree = "<group>"; };
 		663012911D9F9927003ABD58 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		7A738F981CB20F4CCDC7DCA8 /* Pods_hassanAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hassanAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBE02BC5785BB008E99FB12 /* Pods-hassanAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPPUITests/Pods-hassanAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC95486AD6953A344B8AC203 /* Pods-hassanAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPPTests/Pods-hassanAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D750BE7B917ACB5487B9CD /* Pods-hassanAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPPTests/Pods-hassanAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6171972A93BFB4561735D33 /* Pods_hassanAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hassanAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD88B86249B35ED3C6CEE465 /* Pods-hassanAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hassanAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hassanAPP/Pods-hassanAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AFB4CBED4A10AFE3DD95A3 /* Pods_hassanAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8474EF5835A3E34BEA30F64A /* Pods_hassanAPPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +105,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57F784AA14E69E3FD03B81E /* Pods_hassanAPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660DB2C31DB70D9000423591 /* Protocol  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Protocol ";
+			sourceTree = "<group>";
+		};
 		663012441D94FE5F003ABD58 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,8 @@
 				663012641D94FE5F003ABD58 /* hassanAPPTests */,
 				6630126F1D94FE5F003ABD58 /* hassanAPPUITests */,
 				6630124E1D94FE5F003ABD58 /* Products */,
+				725B51176D8FB33636B010B7 /* Pods */,
+				BAA40F1472E9516FB0136FD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +144,9 @@
 		6630124F1D94FE5F003ABD58 /* hassanAPP */ = {
 			isa = PBXGroup;
 			children = (
+				6613366F1DB9DD5700C8A1A4 /* hassanAPP.entitlements */,
+				6613366D1DB9DA4300C8A1A4 /* GoogleService-Info.plist */,
+				660DB2C31DB70D9000423591 /* Protocol  */,
 				663012801D9B798A003ABD58 /* Controller */,
 				6630127F1D9B7985003ABD58 /* View */,
 				6630127E1D9B797C003ABD58 /* Model */,
@@ -179,6 +209,29 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		725B51176D8FB33636B010B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD88B86249B35ED3C6CEE465 /* Pods-hassanAPP.debug.xcconfig */,
+				2FF68BE831A87A3979C8D987 /* Pods-hassanAPP.release.xcconfig */,
+				E1D750BE7B917ACB5487B9CD /* Pods-hassanAPPTests.debug.xcconfig */,
+				CC95486AD6953A344B8AC203 /* Pods-hassanAPPTests.release.xcconfig */,
+				AFBE02BC5785BB008E99FB12 /* Pods-hassanAPPUITests.debug.xcconfig */,
+				1CEECAB564C29686FBA4E781 /* Pods-hassanAPPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAA40F1472E9516FB0136FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6171972A93BFB4561735D33 /* Pods_hassanAPP.framework */,
+				7A738F981CB20F4CCDC7DCA8 /* Pods_hassanAPPTests.framework */,
+				3315FE57EDD7C39539443F55 /* Pods_hassanAPPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663012751D94FE5F003ABD58 /* Build configuration list for PBXNativeTarget "hassanAPP" */;
 			buildPhases = (
+				533E012EE12B9C2C0D95107D /* [CP] Check Pods Manifest.lock */,
 				663012491D94FE5F003ABD58 /* Sources */,
 				6630124A1D94FE5F003ABD58 /* Frameworks */,
 				6630124B1D94FE5F003ABD58 /* Resources */,
+				7C6B93E173F8DE9D0C9D7871 /* [CP] Embed Pods Frameworks */,
+				1FDFBCA83F762D68D0070551 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663012781D94FE5F003ABD58 /* Build configuration list for PBXNativeTarget "hassanAPPTests" */;
 			buildPhases = (
+				948D9D233D0132F4F99DD063 /* [CP] Check Pods Manifest.lock */,
 				6630125D1D94FE5F003ABD58 /* Sources */,
 				6630125E1D94FE5F003ABD58 /* Frameworks */,
 				6630125F1D94FE5F003ABD58 /* Resources */,
+				50C4645F039CC848A66D8C74 /* [CP] Embed Pods Frameworks */,
+				3E765DD1D923AEF07DD64087 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6630127B1D94FE5F003ABD58 /* Build configuration list for PBXNativeTarget "hassanAPPUITests" */;
 			buildPhases = (
+				66F49BCE96D96956203BE550 /* [CP] Check Pods Manifest.lock */,
 				663012681D94FE5F003ABD58 /* Sources */,
 				663012691D94FE5F003ABD58 /* Frameworks */,
 				6630126A1D94FE5F003ABD58 /* Resources */,
+				082B837A2A4F310C1A3B572D /* [CP] Embed Pods Frameworks */,
+				95F6FCD393EC3DC4900F5C5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +309,13 @@
 				TargetAttributes = {
 					6630124C1D94FE5F003ABD58 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76MJW78B2W;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					663012601D94FE5F003ABD58 = {
 						CreatedOnToolsVersion = 8.0;
@@ -289,6 +357,7 @@
 				6630125B1D94FE5F003ABD58 /* LaunchScreen.storyboard in Resources */,
 				663012581D94FE5F003ABD58 /* Assets.xcassets in Resources */,
 				663012561D94FE5F003ABD58 /* Main.storyboard in Resources */,
+				6613366E1DB9DA4300C8A1A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +376,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082B837A2A4F310C1A3B572D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPPUITests/Pods-hassanAPPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FDFBCA83F762D68D0070551 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPP/Pods-hassanAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E765DD1D923AEF07DD64087 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPPTests/Pods-hassanAPPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C4645F039CC848A66D8C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPPTests/Pods-hassanAPPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533E012EE12B9C2C0D95107D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66F49BCE96D96956203BE550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C6B93E173F8DE9D0C9D7871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPP/Pods-hassanAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948D9D233D0132F4F99DD063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95F6FCD393EC3DC4900F5C5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hassanAPPUITests/Pods-hassanAPPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		663012491D94FE5F003ABD58 /* Sources */ = {
@@ -472,8 +679,11 @@
 		};
 		663012761D94FE5F003ABD58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD88B86249B35ED3C6CEE465 /* Pods-hassanAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hassanAPP/hassanAPP.entitlements;
+				DEVELOPMENT_TEAM = 76MJW78B2W;
 				INFOPLIST_FILE = hassanAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.hassanAPP;
@@ -484,8 +694,11 @@
 		};
 		663012771D94FE5F003ABD58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF68BE831A87A3979C8D987 /* Pods-hassanAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hassanAPP/hassanAPP.entitlements;
+				DEVELOPMENT_TEAM = 76MJW78B2W;
 				INFOPLIST_FILE = hassanAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.hassanAPP;
@@ -496,6 +709,7 @@
 		};
 		663012791D94FE5F003ABD58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D750BE7B917ACB5487B9CD /* Pods-hassanAPPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +724,7 @@
 		};
 		6630127A1D94FE5F003ABD58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC95486AD6953A344B8AC203 /* Pods-hassanAPPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +739,7 @@
 		};
 		6630127C1D94FE5F003ABD58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBE02BC5785BB008E99FB12 /* Pods-hassanAPPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = hassanAPPUITests/Info.plist;
@@ -537,6 +753,7 @@
 		};
 		6630127D1D94FE5F003ABD58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEECAB564C29686FBA4E781 /* Pods-hassanAPPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = hassanAPPUITests/Info.plist;

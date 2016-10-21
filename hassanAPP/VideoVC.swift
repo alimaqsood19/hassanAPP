@@ -11,8 +11,6 @@ import UIKit
 class VideoVC: UIViewController {
     
 
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

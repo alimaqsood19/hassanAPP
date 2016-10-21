@@ -12,6 +12,7 @@ class aboutVC: UIViewController {
     
     @IBAction func backBtnPressed(_ sender: AnyObject) {
         dismiss(animated: true, completion: nil)
+    
     }
     
 
@@ -19,6 +20,8 @@ class aboutVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
     }
 
 
