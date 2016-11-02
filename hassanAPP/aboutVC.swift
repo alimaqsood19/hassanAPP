@@ -10,20 +10,25 @@ import UIKit
 
 class aboutVC: UIViewController {
     
+    @IBOutlet weak var textView: UITextView!
+    
     @IBAction func backBtnPressed(_ sender: AnyObject) {
         dismiss(animated: true, completion: nil)
     
     }
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.textView.scrollRangeToVisible(NSMakeRange(0, 0))
         
         
     }
 
-
-
+    override func viewDidLayoutSubviews() {
+         super.viewDidLayoutSubviews()
+        textView.setContentOffset(CGPoint.zero, animated: false)
+    }
 }

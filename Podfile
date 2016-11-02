@@ -7,7 +7,11 @@ target 'hassanAPP' do
 
   # Pods for hassanAPP
   pod 'Firebase'
-  pod  'Firebase/Messaging'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
   target 'hassanAPPTests' do
     inherit! :search_paths
     # Pods for testing
