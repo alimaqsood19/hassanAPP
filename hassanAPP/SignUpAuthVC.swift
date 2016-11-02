@@ -9,19 +9,18 @@
 import UIKit
 
 class SignUpAuthVC: UIViewController {
+    
+    
+    @IBOutlet weak var hassanLogoImg: Logo!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        hassanLogoImg.addRounded()
+        hassanLogoImg.addDropShadow()
 
-        // Do any additional setup after loading the view.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
- 
 
 }

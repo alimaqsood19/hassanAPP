@@ -818,6 +818,9 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                             <constraint firstItem="Ntx-Hj-laH" firstAttribute="top" secondItem="8rO-Sl-Etp" secondAttribute="bottom" constant="8" id="tY3-0U-Pvq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hassanLogoImg" destination="bEY-eb-RFv" id="9vJ-pb-NEY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zi6-Df-Bu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
