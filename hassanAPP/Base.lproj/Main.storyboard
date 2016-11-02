@@ -719,6 +719,110 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
             </objects>
             <point key="canvasLocation" x="930.39999999999998" y="13.943028485757123"/>
         </scene>
+        <!--Sign Up AuthVC-->
+        <scene sceneID="6y0-9P-DPE">
+            <objects>
+                <viewController id="hdk-eL-o8e" customClass="SignUpAuthVC" customModule="hassanAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r4Z-7m-GeX"/>
+                        <viewControllerLayoutGuide type="bottom" id="SsV-Zz-nFC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j7I-ps-aBg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdl-hL-tUh">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HASSANblack" translatesAutoresizingMaskIntoConstraints="NO" id="bEY-eb-RFv"/>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.92156862745098034" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bEY-eb-RFv" firstAttribute="top" secondItem="Mdl-hL-tUh" secondAttribute="top" constant="24" id="1Ph-We-dkF"/>
+                                    <constraint firstAttribute="bottom" secondItem="bEY-eb-RFv" secondAttribute="bottom" constant="24" id="9kW-Rk-xQA"/>
+                                    <constraint firstItem="bEY-eb-RFv" firstAttribute="leading" secondItem="Mdl-hL-tUh" secondAttribute="leading" constant="8" id="afe-YY-FxN"/>
+                                    <constraint firstAttribute="height" constant="150" id="bl2-Bm-WRt"/>
+                                    <constraint firstAttribute="trailing" secondItem="bEY-eb-RFv" secondAttribute="trailing" constant="8" id="x9o-pA-aeV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jb7-fR-U6q">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you haven't signed in before, an account will be automatically created for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9JZ-M8-PpF">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549019602" green="0.75294117647058822" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9JZ-M8-PpF" secondAttribute="bottom" constant="8" id="NqL-wD-jJl"/>
+                                    <constraint firstItem="9JZ-M8-PpF" firstAttribute="leading" secondItem="jb7-fR-U6q" secondAttribute="leading" constant="8" id="TAB-UO-LWP"/>
+                                    <constraint firstAttribute="trailing" secondItem="9JZ-M8-PpF" secondAttribute="trailing" constant="8" id="kMl-83-eSo"/>
+                                    <constraint firstItem="9JZ-M8-PpF" firstAttribute="top" secondItem="jb7-fR-U6q" secondAttribute="top" constant="8" id="lrK-Bb-Fsu"/>
+                                    <constraint firstAttribute="height" constant="75" id="p3L-JQ-pVr"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sign in method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-Sl-Etp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="UQ5-bx-tgG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntx-Hj-laH">
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.26666666666666666" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="o79-wy-S8G"/>
+                                    <constraint firstAttribute="height" constant="135" id="pcJ-Wz-E9k"/>
+                                </constraints>
+                                <state key="normal" image="f"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OAR-1H-kUS">
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxV-OO-RKX">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oyk-zg-6gK">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZk-8t-cMb">
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.87" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8rO-Sl-Etp" firstAttribute="top" secondItem="Mdl-hL-tUh" secondAttribute="bottom" constant="20" id="18K-J5-vl2"/>
+                            <constraint firstAttribute="trailing" secondItem="jb7-fR-U6q" secondAttribute="trailing" id="7PX-As-C89"/>
+                            <constraint firstItem="Mdl-hL-tUh" firstAttribute="top" secondItem="j7I-ps-aBg" secondAttribute="top" id="Dq1-to-Xhv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OAR-1H-kUS" secondAttribute="trailing" constant="30" id="GOm-Nd-3V0"/>
+                            <constraint firstItem="8rO-Sl-Etp" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leadingMargin" id="Igg-gb-NoG"/>
+                            <constraint firstItem="OAR-1H-kUS" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leadingMargin" constant="30" id="KVC-ck-oqO"/>
+                            <constraint firstItem="jb7-fR-U6q" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leading" id="LhL-Qz-h7L"/>
+                            <constraint firstItem="OAR-1H-kUS" firstAttribute="centerX" secondItem="j7I-ps-aBg" secondAttribute="centerX" id="QeY-gp-R9l"/>
+                            <constraint firstItem="Ntx-Hj-laH" firstAttribute="centerX" secondItem="j7I-ps-aBg" secondAttribute="centerX" id="WdN-40-xsU"/>
+                            <constraint firstItem="8rO-Sl-Etp" firstAttribute="trailing" secondItem="j7I-ps-aBg" secondAttribute="trailingMargin" id="cfH-jV-ekl"/>
+                            <constraint firstItem="Mdl-hL-tUh" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leading" id="gaO-T1-aHO"/>
+                            <constraint firstItem="OAR-1H-kUS" firstAttribute="top" secondItem="Ntx-Hj-laH" secondAttribute="bottom" constant="20" id="jOF-c8-u2E"/>
+                            <constraint firstAttribute="trailing" secondItem="Mdl-hL-tUh" secondAttribute="trailing" id="jzX-Zl-qUN"/>
+                            <constraint firstItem="SsV-Zz-nFC" firstAttribute="top" secondItem="jb7-fR-U6q" secondAttribute="bottom" id="leo-Yv-pRj"/>
+                            <constraint firstItem="Ntx-Hj-laH" firstAttribute="top" secondItem="8rO-Sl-Etp" secondAttribute="bottom" constant="8" id="tY3-0U-Pvq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zi6-Df-Bu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2138.4000000000001" y="-740.7796101949026"/>
+        </scene>
     </scenes>
     <resources>
         <image name="12185388_611173469023286_3328785568127900192_o" width="2048" height="2047"/>
@@ -729,6 +833,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
         <image name="_IGP7791" width="4928" height="3264"/>
         <image name="_IGP7976-Edit" width="3264" height="4928"/>
         <image name="about" width="330" height="115"/>
+        <image name="f" width="352" height="328"/>
         <image name="facbeook" width="330" height="115"/>
         <image name="fbcover2" width="851" height="315"/>
         <image name="signup" width="330" height="115"/>
