@@ -776,6 +776,9 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                     <constraint firstAttribute="height" constant="135" id="pcJ-Wz-E9k"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="hdk-eL-o8e" eventType="touchUpInside" id="w9m-NU-WrL"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OAR-1H-kUS">
                                 <subviews>
