@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wJa-JR-Ydi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZvQ-sw-W4o">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skx-pn-xqS">
@@ -85,7 +85,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12185388_611173469023286_3328785568127900192_o" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-ip-IXl">
@@ -216,7 +216,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9DE-2c-Ok2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bOI-up-acD">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-dm-gaQ">
@@ -285,7 +285,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Adh-x0-JD1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bde-a2-kx6">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Vx-AK-BB4">
@@ -354,7 +354,7 @@
                         <viewControllerLayoutGuide type="bottom" id="oAt-Wz-LbL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qa7-wj-8S0">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGh-vw-jZE">
@@ -422,7 +422,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Xc4-U3-Eg5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DVC-OB-HnQ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_IGP7976-Edit" translatesAutoresizingMaskIntoConstraints="NO" id="kC9-kj-X0s"/>
@@ -500,7 +500,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Zwd-MY-B2a"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4G3-6x-eZQ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ztr-Rg-r2l">
@@ -545,10 +545,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="92" id="m3W-Yi-qLe" customClass="VideoCell" customModule="hassanAPP" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="768" height="92"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="92"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m3W-Yi-qLe" id="MsM-ID-ddl">
-                                            <frame key="frameInset" width="768" height="91"/>
+                                            <frame key="frameInset" width="320" height="91"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hoj-yG-sI6">
@@ -617,7 +617,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6gG-Pn-KA6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gxs-e2-TU3">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_IGP7791" translatesAutoresizingMaskIntoConstraints="NO" id="ezr-tA-m3m"/>
@@ -728,7 +728,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                         <viewControllerLayoutGuide type="bottom" id="SsV-Zz-nFC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="j7I-ps-aBg">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdl-hL-tUh" customClass="SignUPAuthView" customModule="hassanAPP" customModuleProvider="target">
@@ -790,7 +790,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oyk-zg-6gK" customClass="FancyField" customModule="hassanAPP" customModuleProvider="target">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZk-8t-cMb" customClass="RoundBtnSignIn" customModule="hassanAPP" customModuleProvider="target">
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
@@ -798,13 +798,26 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="0.87" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signUpTapped:" destination="hdk-eL-o8e" eventType="touchUpInside" id="4Rb-46-Bdo"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password must have 6 characters " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="H39-7T-kPz">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="BM1-KB-3xo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8rO-Sl-Etp" firstAttribute="top" secondItem="Mdl-hL-tUh" secondAttribute="bottom" constant="20" id="18K-J5-vl2"/>
+                            <constraint firstItem="H39-7T-kPz" firstAttribute="top" secondItem="OAR-1H-kUS" secondAttribute="bottom" constant="13" id="23g-GN-flR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H39-7T-kPz" secondAttribute="trailing" constant="30" id="5IN-kP-Qrb"/>
                             <constraint firstAttribute="trailing" secondItem="jb7-fR-U6q" secondAttribute="trailing" id="7PX-As-C89"/>
                             <constraint firstItem="Mdl-hL-tUh" firstAttribute="top" secondItem="j7I-ps-aBg" secondAttribute="top" id="Dq1-to-Xhv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OAR-1H-kUS" secondAttribute="trailing" constant="30" id="GOm-Nd-3V0"/>
@@ -814,6 +827,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                             <constraint firstItem="OAR-1H-kUS" firstAttribute="centerX" secondItem="j7I-ps-aBg" secondAttribute="centerX" id="QeY-gp-R9l"/>
                             <constraint firstItem="Ntx-Hj-laH" firstAttribute="centerX" secondItem="j7I-ps-aBg" secondAttribute="centerX" id="WdN-40-xsU"/>
                             <constraint firstItem="8rO-Sl-Etp" firstAttribute="trailing" secondItem="j7I-ps-aBg" secondAttribute="trailingMargin" id="cfH-jV-ekl"/>
+                            <constraint firstItem="H39-7T-kPz" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leadingMargin" constant="30" id="eyp-54-ppn"/>
                             <constraint firstItem="Mdl-hL-tUh" firstAttribute="leading" secondItem="j7I-ps-aBg" secondAttribute="leading" id="gaO-T1-aHO"/>
                             <constraint firstItem="OAR-1H-kUS" firstAttribute="top" secondItem="Ntx-Hj-laH" secondAttribute="bottom" constant="20" id="jOF-c8-u2E"/>
                             <constraint firstAttribute="trailing" secondItem="Mdl-hL-tUh" secondAttribute="trailing" id="jzX-Zl-qUN"/>
@@ -822,7 +836,10 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailField" destination="bxV-OO-RKX" id="6TY-Sx-9aX"/>
                         <outlet property="hassanLogoImg" destination="bEY-eb-RFv" id="9vJ-pb-NEY"/>
+                        <outlet property="passwordCharacterLength" destination="H39-7T-kPz" id="WRX-G9-6yn"/>
+                        <outlet property="passwordField" destination="Oyk-zg-6gK" id="8fQ-s1-cft"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zi6-Df-Bu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
