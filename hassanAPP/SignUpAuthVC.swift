@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FBSDKCoreKit
 import FBSDKLoginKit
+import SwiftKeychainWrapper
 
 class SignUpAuthVC: UIViewController {
     
@@ -25,6 +26,9 @@ class SignUpAuthVC: UIViewController {
     
     @IBAction func facebookBtnTapped(_ sender: AnyObject) {
         //allows facebook to authenticate login
+        
+        passwordField.text = ""
+        emailField.text = ""
         let facebookLogin = FBSDKLoginManager()
         
         //permission to login with facebook credentials
@@ -47,6 +51,10 @@ class SignUpAuthVC: UIViewController {
                 print("ALI: Unable to authenticate with Firbase - \(error)")
             }else {
                 print("ALI: Succesfully authenticated with firebase")
+                if let user = user {
+                    self.completeSignIn(id: user.uid)
+                }
+                
             }
         })
     }
@@ -57,6 +65,10 @@ class SignUpAuthVC: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
                 if error == nil { //user existed and pw cor
                     print("ALI: Email User authenticated with firebase")
+                    if let user = user {
+                        self.completeSignIn(id: user.uid)
+                    }
+                    
                 }else {
                     FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
                         if error != nil {
@@ -65,12 +77,17 @@ class SignUpAuthVC: UIViewController {
                             self.passwordCharacterLength.isHidden = false
                             print("ALI: Successfully email authenticated with firebase")
                             self.passwordCharacterLength.text = "Successfully created a new account!"
+                            if let user = user {
+                                self.completeSignIn(id: user.uid)
+                            }
+                            
                         }
                     })
                 }
             })
         }
         
+        //Label updates depending on users input
         if (passwordField.text?.characters.count)! < 6 {
             passwordCharacterLength.isHidden = false
         }else {
@@ -78,17 +95,30 @@ class SignUpAuthVC: UIViewController {
         }
     }
     
+    //Saving the information to keychain
+    func completeSignIn(id: String ) {
+       let keyChainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("ALI: Data saved to keychain \(keyChainResult)")
+        performSegue(withIdentifier: "goToFeed", sender: nil)
+    }
+    
    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //Implemented protocols
         hassanLogoImg.addRounded()
         hassanLogoImg.addDropShadow()
-
         
+
+        }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+            performSegue(withIdentifier: "goToFeed", sender: nil)
     }
 
-
+    
+}
 }

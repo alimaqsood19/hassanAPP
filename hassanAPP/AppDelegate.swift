@@ -78,7 +78,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func tokenRefreshNotification(notification: NSNotification) {
         
         let refreshedToken = FIRInstanceID.instanceID().token()
-        print("InstanceID token: \(refreshedToken)")
+        print("ALI: InstanceID token: \(refreshedToken)")
         
         connectToFirebaseConnectionManager()
     }
@@ -87,9 +87,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRMessaging.messaging().connect { (error) in
             
             if (error != nil) {
-                print("Unable to connect \(error)")
+                print("ALI: Unable to connect \(error)")
             }else {
-                print("Connected to FCM")
+                print("ALI: Connected to FCM")
             }
         }
     }
