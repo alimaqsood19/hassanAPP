@@ -991,22 +991,22 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                     <constraint firstAttribute="trailing" secondItem="w2z-Gv-dPY" secondAttribute="trailing" constant="8" id="tXB-Uq-Yno"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="356" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aZ4-0W-1BN">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="356" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aZ4-0W-1BN">
                                 <rect key="frame" x="0.0" y="162" width="375" height="505"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="356" id="neO-fi-Qct">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="356" id="neO-fi-Qct" customClass="PostCell" customModule="hassanAPP" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="356"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="neO-fi-Qct" id="ThK-zZ-hN5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="355"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="356"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RG-TV-i99" customClass="SignUPAuthView" customModule="hassanAPP" customModuleProvider="target">
-                                                    <rect key="frame" x="16" y="16" width="343" height="323"/>
+                                                    <rect key="frame" x="16" y="16" width="343" height="324"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="F2m-pA-fgw">
-                                                            <rect key="frame" x="5" y="5" width="333" height="284"/>
+                                                            <rect key="frame" x="5" y="5" width="333" height="285"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4M-Qu-XJq">
                                                                     <rect key="frame" x="0.0" y="0.0" width="333" height="60"/>
@@ -1035,11 +1035,14 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nZX-Is-U8i">
-                                                                    <rect key="frame" x="0.0" y="65" width="333" height="137"/>
+                                                                    <rect key="frame" x="0.0" y="65" width="333" height="138"/>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="riQ-w7-KbF">
-                                                                    <rect key="frame" x="0.0" y="207" width="333" height="77"/>
+                                                                    <rect key="frame" x="0.0" y="208" width="333" height="77"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="77" id="j9f-uN-0Qa"/>
+                                                                    </constraints>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1047,7 +1050,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="O2u-oT-dVt">
-                                                            <rect key="frame" x="252" y="295" width="83" height="20"/>
+                                                            <rect key="frame" x="252" y="296" width="83" height="20"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAd-qk-hMp">
                                                                     <rect key="frame" x="0.0" y="0.0" width="40" height="20"/>
@@ -1082,6 +1085,13 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                 <constraint firstAttribute="trailing" secondItem="7RG-TV-i99" secondAttribute="trailing" constant="16" id="gIw-12-wRc"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="captionTxt" destination="riQ-w7-KbF" id="wB3-1E-OG9"/>
+                                            <outlet property="likesLbl" destination="KXH-cX-SN9" id="ljx-wd-3uw"/>
+                                            <outlet property="postImg" destination="nZX-Is-U8i" id="fmc-PN-K92"/>
+                                            <outlet property="profileImg" destination="jU1-cM-1Mr" id="aUx-3o-um7"/>
+                                            <outlet property="usernameLbl" destination="bhb-R3-xEN" id="Vy9-El-uUM"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -1100,6 +1110,9 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                             <constraint firstItem="yDM-UC-OXz" firstAttribute="top" secondItem="umj-s9-UrF" secondAttribute="top" id="ucJ-aF-hNn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="aZ4-0W-1BN" id="fBO-1i-xlp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="REJ-27-TDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
