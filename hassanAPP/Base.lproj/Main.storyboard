@@ -960,13 +960,17 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w2z-Gv-dPY">
                                         <rect key="frame" x="8" y="8" width="327" height="49"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="MYM-Tb-902" customClass="CircleView" customModule="hassanAPP" customModuleProvider="target">
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="MYM-Tb-902" customClass="CircleView" customModule="hassanAPP" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="49" height="49"/>
                                                 <color key="backgroundColor" red="0.97647058823529409" green="0.84313725490196079" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="49" id="0Ey-DU-Sxm"/>
                                                     <constraint firstAttribute="width" constant="49" id="Ps0-9A-xgD"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="aYe-fD-IKG" appends="YES" id="58K-Hc-Rzj"/>
+                                                </connections>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S4k-TA-cdE" customClass="FancyField" customModule="hassanAPP" customModuleProvider="target">
                                                 <rect key="frame" x="59" y="14" width="209" height="21"/>
@@ -982,6 +986,9 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                     <constraint firstAttribute="width" constant="49" id="q7Z-IE-aV5"/>
                                                 </constraints>
                                                 <state key="normal" image="add-post"/>
+                                                <connections>
+                                                    <action selector="postBtnTapped:" destination="ABS-ab-DBu" eventType="touchUpInside" id="9fo-LC-F2H"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -1115,6 +1122,8 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="captionField" destination="S4k-TA-cdE" id="GQz-w0-XvX"/>
+                        <outlet property="imageAdd" destination="MYM-Tb-902" id="GwK-ke-b4v"/>
                         <outlet property="tableView" destination="aZ4-0W-1BN" id="fBO-1i-xlp"/>
                     </connections>
                 </viewController>
@@ -1122,6 +1131,11 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                 <tapGestureRecognizer id="LJ6-v3-szV">
                     <connections>
                         <action selector="signOutTapped:" destination="ABS-ab-DBu" id="v6s-mu-bHp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="aYe-fD-IKG">
+                    <connections>
+                        <action selector="addImageTapped:" destination="ABS-ab-DBu" id="6Jr-88-oUQ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

@@ -81,7 +81,7 @@ class SignUpAuthVC: UIViewController {
                             self.passwordCharacterLength.text = "Successfully created a new account!"
                             if let user = user {
                                 let userData = ["provider": user.providerID]
-                                self.completeSignIn(id: user.uid, userData: userData)
+                                self.completeSignIn(id: user.uid, userData: userData) //
                             }
                             
                         }
@@ -100,8 +100,10 @@ class SignUpAuthVC: UIViewController {
     
     //Saving the information to keychain
     func completeSignIn(id: String, userData: Dictionary<String,String> ) {
-        DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
+        DataService.ds.createFirebaseDBUser(uid: id, userData: userData) //creates user in database, the key value pair is provider and the value is determined by the auth method implemented in the code above
         
+        
+        //saves data to keychain and performs segue
        let keyChainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
         print("ALI: Data saved to keychain \(keyChainResult)")
         performSegue(withIdentifier: "goToFeed", sender: nil)
@@ -121,7 +123,7 @@ class SignUpAuthVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
-            performSegue(withIdentifier: "goToFeed", sender: nil)
+            performSegue(withIdentifier: "goToFeed", sender: nil)//Once credentials saved to keychain segues to FeedVC 
     }
 
     
