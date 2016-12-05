@@ -99,6 +99,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     @IBOutlet weak var captionField: FancyField!
     
     
+    
+    
     @IBAction func postBtnTapped(_ sender: Any) {
         guard let caption = captionField.text, caption != "" else { //basically asking if it exists pass it into the new constant caption, also make sure that new constant "caption" is not empty
             print("ALI: Caption must be entered")

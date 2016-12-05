@@ -117,12 +117,13 @@ class SignUpAuthVC: UIViewController {
         //Implemented protocols
         hassanLogoImg.addRounded()
         hassanLogoImg.addDropShadow()
-        
+
 
         }
     
     override func viewDidAppear(_ animated: Bool) {
         if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+            
             performSegue(withIdentifier: "goToFeed", sender: nil)//Once credentials saved to keychain segues to FeedVC 
     }
 

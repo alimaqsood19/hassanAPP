@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hdk-eL-o8e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hdk-eL-o8e">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -115,7 +115,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJg-Tn-Puo" userLabel="about">
-                                                <rect key="frame" x="0.0" y="0.0" width="111.5" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="113" id="KzT-eY-iUr"/>
                                                     <constraint firstAttribute="height" constant="36" id="T51-82-reG"/>
@@ -126,7 +126,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-3y-LIj" userLabel="youtube">
-                                                <rect key="frame" x="121.5" y="0.0" width="112" height="36"/>
+                                                <rect key="frame" x="122" y="0.0" width="111" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="RdO-XT-cdq"/>
                                                     <constraint firstAttribute="width" constant="113" id="saJ-VW-C6y"/>
@@ -137,7 +137,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkM-D1-IEM" userLabel="signup">
-                                                <rect key="frame" x="243.5" y="0.0" width="111.5" height="36"/>
+                                                <rect key="frame" x="243" y="0.0" width="112" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="113" id="18o-YX-c3M"/>
                                                     <constraint firstAttribute="height" constant="36" id="fKX-Zl-h89"/>
@@ -153,7 +153,7 @@
                                         <rect key="frame" x="0.0" y="46" width="355" height="36"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUx-3J-ZE4" userLabel="facebook">
-                                                <rect key="frame" x="0.0" y="0.0" width="111.5" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="dpP-G9-f1T"/>
                                                     <constraint firstAttribute="width" constant="113" id="xYu-Uu-Wc1"/>
@@ -164,7 +164,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCO-0B-yed" userLabel="instagram">
-                                                <rect key="frame" x="121.5" y="0.0" width="112" height="36"/>
+                                                <rect key="frame" x="122" y="0.0" width="111" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="113" id="jfL-kD-jwJ"/>
                                                     <constraint firstAttribute="height" constant="36" id="uWa-n8-ad9"/>
@@ -175,7 +175,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMR-bv-uds" userLabel="twitter">
-                                                <rect key="frame" x="243.5" y="0.0" width="111.5" height="36"/>
+                                                <rect key="frame" x="243" y="0.0" width="112" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="113" id="0gq-kh-7Sg"/>
                                                     <constraint firstAttribute="height" constant="36" id="36I-l8-jGN"/>
@@ -1022,7 +1022,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4M-Qu-XJq">
                                                                     <rect key="frame" x="0.0" y="0.0" width="333" height="60"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="jU1-cM-1Mr">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HASSANblack" translatesAutoresizingMaskIntoConstraints="NO" id="jU1-cM-1Mr">
                                                                             <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="60" id="0jA-hM-xHO"/>
@@ -1030,19 +1030,11 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                                             </constraints>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChuChuBoat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhb-R3-xEN">
-                                                                            <rect key="frame" x="60" y="0.0" width="213" height="60"/>
+                                                                            <rect key="frame" x="60" y="0.0" width="273" height="60"/>
                                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty-heart" translatesAutoresizingMaskIntoConstraints="NO" id="dgY-cc-P0C">
-                                                                            <rect key="frame" x="273" y="0.0" width="60" height="60"/>
-                                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <constraints>
-                                                                                <constraint firstAttribute="height" constant="60" id="hfE-IH-S2e"/>
-                                                                                <constraint firstAttribute="width" constant="60" id="mP0-st-c3V"/>
-                                                                            </constraints>
-                                                                        </imageView>
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nZX-Is-U8i">
@@ -1061,7 +1053,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="O2u-oT-dVt">
-                                                            <rect key="frame" x="252" y="296" width="83" height="20"/>
+                                                            <rect key="frame" x="8" y="296" width="83" height="20"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAd-qk-hMp">
                                                                     <rect key="frame" x="0.0" y="0.0" width="40" height="20"/>
@@ -1077,14 +1069,24 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty-heart" translatesAutoresizingMaskIntoConstraints="NO" id="dgY-cc-P0C">
+                                                            <rect key="frame" x="303" y="284" width="40" height="40"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="40" id="hfE-IH-S2e"/>
+                                                                <constraint firstAttribute="width" constant="40" id="mP0-st-c3V"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="F2m-pA-fgw" secondAttribute="trailing" constant="5" id="4Ef-Fn-D37"/>
                                                         <constraint firstItem="F2m-pA-fgw" firstAttribute="leading" secondItem="7RG-TV-i99" secondAttribute="leading" constant="5" id="69P-qJ-4ur"/>
                                                         <constraint firstAttribute="bottom" secondItem="O2u-oT-dVt" secondAttribute="bottom" constant="8" id="FgV-8y-yFq"/>
-                                                        <constraint firstAttribute="trailing" secondItem="O2u-oT-dVt" secondAttribute="trailing" constant="8" id="Kr8-5Q-3yL"/>
+                                                        <constraint firstAttribute="bottom" secondItem="dgY-cc-P0C" secondAttribute="bottom" id="GLO-jL-jkh"/>
+                                                        <constraint firstAttribute="trailing" secondItem="dgY-cc-P0C" secondAttribute="trailing" id="T73-rV-03T"/>
                                                         <constraint firstItem="O2u-oT-dVt" firstAttribute="top" secondItem="F2m-pA-fgw" secondAttribute="bottom" constant="6" id="UUF-D3-1w1"/>
+                                                        <constraint firstItem="O2u-oT-dVt" firstAttribute="leading" secondItem="7RG-TV-i99" secondAttribute="leading" constant="8" id="wZJ-TI-tga"/>
                                                         <constraint firstItem="F2m-pA-fgw" firstAttribute="top" secondItem="7RG-TV-i99" secondAttribute="top" constant="5" id="wwb-E8-WlW"/>
                                                     </constraints>
                                                 </view>
@@ -1098,6 +1100,7 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionTxt" destination="riQ-w7-KbF" id="wB3-1E-OG9"/>
+                                            <outlet property="likeImg" destination="dgY-cc-P0C" id="QCx-8n-YZO"/>
                                             <outlet property="likesLbl" destination="KXH-cX-SN9" id="ljx-wd-3uw"/>
                                             <outlet property="postImg" destination="nZX-Is-U8i" id="fmc-PN-K92"/>
                                             <outlet property="profileImg" destination="jU1-cM-1Mr" id="aUx-3o-um7"/>
@@ -1158,7 +1161,6 @@ Furthermore, HASSAN has experience performing at numerous shows at an array of v
         <image name="facbeook" width="330" height="115"/>
         <image name="fbcover2" width="851" height="315"/>
         <image name="placeholder" width="567" height="312"/>
-        <image name="profile" width="113" height="155"/>
         <image name="sign-out" width="92" height="65"/>
         <image name="signup" width="330" height="115"/>
         <image name="twitter" width="330" height="115"/>

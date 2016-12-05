@@ -8,6 +8,7 @@
 
 import Foundation
 import Firebase
+import SwiftKeychainWrapper
 
 let DB_BASE = FIRDatabase.database().reference() //The url to the root database, its in the googleService-info.plist under DATABASE_URL
 let STORAGE_BASE = FIRStorage.storage().reference() //URL root for storage same as above
@@ -23,6 +24,7 @@ class DataService {
     private var _REF_POSTS = DB_BASE.child("posts")  //end points in database created
     private var _REF_USERS = DB_BASE.child("users")
     
+    
     var REF_BASE: FIRDatabaseReference {
         return _REF_BASE
     }
@@ -35,9 +37,17 @@ class DataService {
         return _REF_USERS
     }
     
+    var REF_USER_CURRENT: FIRDatabaseReference {
+        let uid = KeychainWrapper.standard.string(forKey: KEY_UID) //retrieves string value from keychain
+        let user = REF_USERS.child(uid!) //reference to current user
+        return user
+    }
+    
     var REF_POSTED_IMAGES: FIRStorageReference {
         return _REF_POSTED_IMAGES
     }
+    
+    
     
     func createFirebaseDBUser(uid: String, userData: Dictionary<String, String>) {
         
